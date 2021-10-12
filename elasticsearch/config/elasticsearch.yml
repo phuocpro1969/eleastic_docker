@@ -1,0 +1,18 @@
+# GENERAL SETTINS
+
+cluster.name: "elastic"
+node.name: "saturn"
+node.attr.zone: "saturn"
+
+node.data: true
+node.master: true
+
+network.host: 0.0.0.0
+discovery.zen.minimum_master_nodes: 1
+
+http.port: 9200
+transport.tcp.port: 9300
+
+bootstrap.memory_lock: true
+
+script.allowed_types: inline
